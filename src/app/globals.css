@@ -74,8 +74,8 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 500px;
+  width: auto;
+  max-width: 100%;
   height: auto;
   border-radius: 10px; 
 }

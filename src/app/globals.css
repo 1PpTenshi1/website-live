@@ -115,7 +115,7 @@ body {
 }
 
 .destination-card img:hover {
-  transform: scale(1.1); 
+  transform: scale(0.6); 
 }
 
 .food-recommendation {
@@ -138,7 +138,7 @@ body {
 }
 
 .food-card img:hover {
-  transform: scale(1.1); 
+  transform: scale(0.6); 
 }
 
 .footer {
@@ -177,7 +177,7 @@ nav ul {
   margin-top: 50px;
   padding: 0;
   margin-left: auto;
-  margin-right: 25px;
+  margin-right: 100px;
 }
 
 nav ul li a {
@@ -205,4 +205,14 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
   width: 100%;
+}
+
+.destination-title{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.food-title{
+  font-size: larger;
+  font-weight: bold;
 }

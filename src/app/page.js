@@ -30,7 +30,9 @@ export default function Home() {
         </section>
 
         <section className="top-destinations">
+          <div className="destination-title">
           <h2>Top Destinations</h2>
+          </div>
           <div className="destination-list">
             <div className="destination-card">
               <img src="/images/Boracay.png" alt="Boracay" />
@@ -45,7 +47,9 @@ export default function Home() {
         </section>
 
         <section className="food-recommendation">
+          <div className="food-title">
           <h2>Food Recommendation</h2>
+          </div>
           <div className="food-list">
             <div className="food-card">
               <img src="/images/Chicharon.png" alt="Chicharon" />

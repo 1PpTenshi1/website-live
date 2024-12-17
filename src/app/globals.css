@@ -95,14 +95,6 @@ body {
   padding: 2rem;
 }
 
-.food-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
 .food-card {
   background: #fff;
   border-radius: 10px;

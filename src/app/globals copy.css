@@ -40,7 +40,20 @@ body {
 }
 
 .hero-text {
-  max-width: 50%;
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
 }
 
 .hero button {
@@ -158,4 +171,48 @@ nav ul li a:hover::after {
   height: "800";
   width: "1550";  
   margin: 0;
+}
+
+.food-recommendation {
+  text-align: center;
+  padding: 2rem;
+}
+
+.brand{
+  font-size: large;
+  font-weight: bold;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.subscribe-section {
+  background-color: #f3f4f6;
+  padding: 2rem;
+  text-align: center;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }

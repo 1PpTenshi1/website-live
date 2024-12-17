@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background: linear-gradient(135deg, #ff7f50, #ffd700);
+  background: white;
   color: white;
 }
 
@@ -54,40 +54,16 @@ body {
   width: 100%;
   max-width: 400px; 
   height: auto;
+  text-align: end;
 }
 
 .hero button {
   padding: 10px 20px;
-  background-color: #fff;
+  background-color: orange;
   color: #333;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-}
-
-.top-destinations {
-  padding: 50px;
-  text-align: center;
-  background-color: #fff;
-}
-
-.destination-list {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.destination {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.testimonials {
-  padding: 50px;
-  background: #f1f1f1;
-  text-align: center;
 }
 
 footer {
@@ -173,9 +149,35 @@ nav ul li a:hover::after {
   margin: 0;
 }
 
-.food-recommendation {
+.top-destinations {
+  padding: 50px;
   text-align: center;
-  padding: 2rem;
+  background-color: #fff;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.destination {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.food-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-recommendation {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
 }
 
 .brand{
@@ -184,23 +186,10 @@ nav ul li a:hover::after {
 }
 
 .food-card {
-  background: #fff;
+  background: white;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-}
-
-.subscribe-section {
-  background-color: #f3f4f6;
-  padding: 2rem;
   text-align: center;
-}
-
-.subscribe-form input {
-  padding: 10px;
-  margin-right: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 .footer {

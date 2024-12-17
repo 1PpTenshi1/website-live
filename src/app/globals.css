@@ -104,7 +104,7 @@ body {
 .destination-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .destination-card img {
@@ -127,7 +127,7 @@ body {
 .food-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .food-card img {

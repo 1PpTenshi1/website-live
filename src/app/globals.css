@@ -108,9 +108,14 @@ body {
 }
 
 .destination-card img {
+  transition: transform 0.3s ease-in-out;
   width: 100%;
   max-width: 600px;
   border-radius: 10px;
+}
+
+.destination-card img:hover {
+  transform: scale(1.1); 
 }
 
 .food-recommendation {
@@ -126,9 +131,14 @@ body {
 }
 
 .food-card img {
+  transition: transform 0.3s ease-in-out;
   width: 100%;
   max-width: 600px;
   border-radius: 10px;
+}
+
+.food-card img:hover {
+  transform: scale(1.1); 
 }
 
 .footer {

@@ -11,12 +11,15 @@ export default function Home() {
             <div className="hero-text">
               <h2>BEST DESTINATIONS AROUND THE PHILIPPINES</h2>
               <h1>
-                Travel, <span>enjoy</span> and discover Philippines!
+                Travel, enjoy  
               </h1>
+              <h1>and discover</h1>
+              <h1>Philippines!</h1>
               <p>
-                Discover the beauty of the Philippines with us, your ultimate travel partner for
-                unforgettable adventures! We will make it easy for you to experience authentic Filipino culture.
+                Discover the beauty of the Philippines with us, your ultimate travel partner  
               </p>
+              <p>for unforgettable adventures! We will make it easy for you to </p>
+              <p>experience authentic Filipino culture.</p>
               <button className="btn">Find out more</button>
             </div>
             <div className="hero-image">

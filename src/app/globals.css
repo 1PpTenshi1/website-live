@@ -50,7 +50,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: x-large;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .destination-card img:hover {
-  transform: scale(1.05); 
+  transform: scale(1.02); 
 }
 
 .food-recommendation {
@@ -138,7 +138,7 @@ body {
 }
 
 .food-card img:hover {
-  transform: scale(1.05); 
+  transform: scale(1.02); 
 }
 
 .footer {
@@ -208,11 +208,11 @@ nav ul li a:hover::after {
 }
 
 .destination-title h2{
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bold;
 }
 
 .food-title h2{
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bold;
 }

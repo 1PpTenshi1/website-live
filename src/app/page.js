@@ -15,7 +15,7 @@ export default function Home() {
               </h1>
               <p>
                 Discover the beauty of the Philippines with us, your ultimate travel partner for
-                unforgettable adventures!
+                unforgettable adventures! We will make it easy for you to experience authentic Filipino culture.
               </p>
               <button className="btn">Find out more</button>
             </div>

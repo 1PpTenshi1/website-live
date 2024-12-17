@@ -30,18 +30,12 @@ export default function Home() {
           <div className="destination-list">
             <div className="destination-card">
               <img src="/images/Boracay.png" alt="Boracay" />
-              <h3>Boracay, Aklan</h3>
-              <p>5 Days Trip</p>
             </div>
             <div className="destination-card">
               <img src="/images/Palawan.png" alt="Palawan" />
-              <h3>Coron, Palawan</h3>
-              <p>4 Days Trip</p>
             </div>
             <div className="destination-card">
               <img src="/images/ChinaTown.png" alt="Manila" />
-              <h3>Chinatown, Manila</h3>
-              <p>3 Days Trip</p>
             </div>
           </div>
         </section>
@@ -51,18 +45,12 @@ export default function Home() {
           <div className="food-list">
             <div className="food-card">
               <img src="/images/Chicharon.png" alt="Chicharon" />
-              <h3>Chicharon</h3>
-              <p>Best pork belly</p>
             </div>
             <div className="food-card">
               <img src="/images/bananaq.png" alt="Banana Cue" />
-              <h3>Banana Cue</h3>
-              <p>Caramelized banana skewers</p>
             </div>
             <div className="food-card">
               <img src="/images/daing.png" alt="Adobo" />
-              <h3>Adobo</h3>
-              <p>Dried Fish</p>
             </div>
           </div>
         </section>

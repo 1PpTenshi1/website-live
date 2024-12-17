@@ -34,6 +34,7 @@ body {
   justify-content: space-between;
   gap: 20px; 
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -74,8 +75,9 @@ body {
 }
 
 .hero-image img {
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
+  min-width: 400px;
   height: auto;
   border-radius: 10px; 
 }

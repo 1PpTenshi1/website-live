@@ -40,7 +40,20 @@ body {
 }
 
 .hero-text {
-  max-width: 50%;
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
 }
 
 .hero button {

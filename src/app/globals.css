@@ -178,13 +178,6 @@ nav ul li a:hover::after {
   padding: 2rem;
 }
 
-.food-list {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
 .food-card {
   background: #fff;
   border-radius: 10px;

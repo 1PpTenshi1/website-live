@@ -146,7 +146,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   padding: 10px 20px;
   background-color: #fff;
   position: sticky;
@@ -164,6 +164,7 @@ nav ul {
   gap: 15px;
   margin: 0;
   padding: 0;
+  margin-left: auto;
 }
 
 nav ul li a {

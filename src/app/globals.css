@@ -1,4 +1,3 @@
-/* General Reset */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,7 +6,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -32,31 +30,32 @@ body {
   color: #333;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 50px;
-  background: white;
+  background: linear-gradient(135deg, #ff7f50, #ffd700);
   color: white;
 }
 
 .hero-text {
   flex: 1;
   padding: 20px;
-  text-align: center; /* Center align text on smaller screens */
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 400px; 
   height: auto;
-  border-radius: 8px;
 }
 
-/* Button Styling */
 .hero button {
   padding: 10px 20px;
   background-color: #fff;
@@ -66,7 +65,6 @@ body {
   border-radius: 5px;
 }
 
-/* Top Destinations */
 .top-destinations {
   padding: 50px;
   text-align: center;
@@ -75,24 +73,114 @@ body {
 
 .destination-list {
   display: flex;
-  flex-wrap: wrap; /* Adjust layout on smaller screens */
   justify-content: center;
   gap: 20px;
 }
 
-.destination-card {
+.destination {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 100%; /* Default for small screens */
-  max-width: 300px; /* Restrict size for larger screens */
 }
 
-/* Food Recommendation Section */
+.testimonials {
+  padding: 50px;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.page-image{
+  display: block;
+  height: "800";
+  width: "1550";  
+  margin: 0;
+}
+
 .food-recommendation {
   text-align: center;
   padding: 2rem;
+}
+
+.brand{
+  font-size: large;
+  font-weight: bold;
 }
 
 .food-card {
@@ -100,11 +188,21 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  width: 100%; /* Default for small screens */
-  max-width: 300px; /* Restrict size for larger screens */
 }
 
-/* Footer Styles */
+.subscribe-section {
+  background-color: #f3f4f6;
+  padding: 2rem;
+  text-align: center;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .footer {
   background-color: #222;
   color: white;
@@ -115,58 +213,6 @@ body {
 .footer ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-}
-
-/* Responsive Design with Media Queries */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column; /* Stack text and image vertically */
-    padding: 30px;
-  }
-
-  .hero-text {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .hero-image img {
-    max-width: 90%; /* Reduce image size */
-  }
-
-  .destination-list,
-  .food-list {
-    flex-direction: column; /* Stack items vertically */
-  }
-
-  .destination-card,
-  .food-card {
-    max-width: 90%; /* Reduce card width */
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-    padding: 20px;
-  }
-
-  .hero-text h1 {
-    font-size: 1.8rem; /* Adjust font size for smaller screens */
-  }
-
-  .hero button {
-    font-size: 1rem;
-    padding: 8px 16px;
-  }
-
-  .destination-card h3,
-  .food-card h3 {
-    font-size: 1.2rem; /* Smaller heading sizes */
-  }
-
-  .footer ul {
-    gap: 1rem; /* Reduce spacing in footer */
-  }
 }

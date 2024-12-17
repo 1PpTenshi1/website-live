@@ -20,7 +20,7 @@ export default function Home() {
               <button className="btn">Find out more</button>
             </div>
             <div className="hero-image">
-             <img src="/images/traveler.png" alt="Placeholder for the Philippines destination" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+             <img src="/images/traveler.png" alt="Placeholder for the Philippines destination" style={{ maxWidth: '30%', height: 'auto', borderRadius: '8px' }} />
             </div>
           </div>
         </section>

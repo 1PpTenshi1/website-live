@@ -173,6 +173,12 @@ nav ul li a:hover::after {
   margin: 0;
 }
 
+.food-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .food-recommendation {
   text-align: center;
   padding: 2rem;

@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="card">
               <Image
-                src="/images/Chinatown.png"
+                src="/images/ChinaTown.png"
                 width={300}
                 height={200}
                 alt="Chinatown, Manila"

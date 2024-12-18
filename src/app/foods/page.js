@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function Delicacies() {
+export default function Foods() {
   return (
     <div>
-        <header>
+      <header>
         <nav className="nav">
           <ul>
             <li><a href="/" className="no-underline">Home</a></li>
@@ -13,7 +13,7 @@ export default function Delicacies() {
         </nav>
       </header>
 
-    <br><br><br><br></br></br></br></br>
+    <br /><br /><br />
     <div class="container-foods">
         <div class="delicacy reverse" id="destination">
             <Image src="/images/Chicharon.png" alt="Chicharon"/>
@@ -28,12 +28,12 @@ export default function Delicacies() {
             </div>
         </div>
         <div class="delicacy reverse">
-            <Image src="d:/images/daing.png" alt="Daing na Bangus"/>
+            <Image src="/images/daing.png" alt="Daing na Bangus"/>
             <div>
                 <p>"Daing na bangus" is a Filipino dish made from marinated milkfish (bangus). The milkfish is typically butterflied and marinated in a mixture of vinegar, garlic, peppercorns, and salt. This marination process infuses the fish with a tangy and savory flavor. Once marinated, the fish is either fried or grilled until crispy and golden. "Daing na bangus" is often served with a side of rice and a dipping sauce made from vinegar, soy sauce, and chili. It’s a beloved breakfast dish in the Philippines, known for its rich flavors and satisfying texture.</p>
             </div>
         </div>
-    </div>
+      </div>
     </div>
   );
 }

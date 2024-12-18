@@ -13,7 +13,11 @@ export default function Foods() {
         </nav>
       </header>
 
-    <br /><br /><br />
+    <br /><br /><br /><br />
+    <div className="food-h2">
+    <h2>Delicacies</h2>
+    </div>
+    <br /> <br />
     <div class="container-foods">
         <div class="delicacy reverse" id="destination">
             <Image src="/images/Chicharon.png" alt="Chicharon"/>

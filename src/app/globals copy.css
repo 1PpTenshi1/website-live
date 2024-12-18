@@ -9,14 +9,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-  color: #333;
 }
 
 .header nav ul {
@@ -25,52 +20,142 @@ body {
   gap: 20px;
 }
 
-.header nav a {
-  text-decoration: none;
-  color: #333;
-}
-
 .hero {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   padding: 50px;
-  background: white;
-  color: white;
-}
-
-.hero-text {
-  flex: 1;
-  padding: 20px;
+  background-color: #fff;
 }
 
 .hero-content {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 20px; 
   width: 100%;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+  color: #333;
+  padding-right: 20px; 
+  margin-left: 150px;
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  color: red;
+}
+
+.hero-text h1 {
+  font-size: 75px;
+  font-weight: bold;
+  margin: 10px 0;
+  line-height: 1;
+}
+
+.hero-text span {
+  color: orange;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+  margin-right: 150px;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 400px; 
+  max-width: 600px;
+  min-width: 400px;
   height: auto;
-  text-align: end;
+  border-radius: 10px; 
 }
 
-.hero button {
+.btn {
+  display: inline-block;
   padding: 10px 20px;
   background-color: orange;
-  color: #333;
+  color: white;
   border: none;
+  border-radius: 15px;
   cursor: pointer;
-  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-footer {
+.btn:hover {
+  background-color: #ff9800;
+}
+
+.top-destinations {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.destination-card img {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.destination-card img:hover {
+  transform: scale(1.02); 
+}
+
+.food-recommendation {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.food-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.food-card img {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.food-card img:hover {
+  transform: scale(1.02); 
+}
+
+.footer {
   padding: 20px;
   text-align: center;
-  background-color: #333;
+  background-color: #222;
   color: white;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav {
@@ -79,40 +164,23 @@ nav {
   align-items: center;
   padding: 10px 20px;
   background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-nav h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 20px; 
+  background-color: #ffffff;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;
-  margin: 0;
+  gap: 35px;
+  margin-top: 50px;
   padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
+  margin-left: auto;
+  margin-right: 100px;
 }
 
 nav ul li a {
@@ -142,66 +210,12 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.page-image{
-  display: block;
-  height: "800";
-  width: "1550";  
-  margin: 0;
-}
-
-.top-destinations {
-  padding: 50px;
-  text-align: center;
-  background-color: #fff;
-}
-
-.destination-list {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.destination {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.food-list {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.food-recommendation {
-  padding: 50px;
-  text-align: center;
-  background-color: #fff;
-}
-
-.brand{
-  font-size: large;
+.destination-title h2{
+  font-size: xx-large;
   font-weight: bold;
 }
 
-.food-card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 2rem;
-}
-
-.footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+.food-title h2{
+  font-size: xx-large;
+  font-weight: bold;
 }

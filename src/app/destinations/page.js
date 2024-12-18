@@ -15,10 +15,10 @@ export default function Destinations() {
 
     <br /><br /><br /><br />
     <div className="destinations-h2">
-    <h2>Delicacies</h2>
+    <h2>Destinations</h2>
     </div>
     <br /> <br />
-    <div className="container-destintations">
+    <div className="container-destinations">
         <div class="destinations reverse" id="destination">
             <Image src="/images/ChinaTown.png" alt="Chinatown"/>
             <div>

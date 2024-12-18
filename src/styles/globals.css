@@ -356,6 +356,7 @@ footer h4:hover {
 .food-h2 {
   margin: 10px;
   font-size: 2rem;
+  margin-left: 20px;
 }
 .delicacy:last-child {
   border-bottom: none;

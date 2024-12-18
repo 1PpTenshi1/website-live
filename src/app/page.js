@@ -1,68 +1,134 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Image from "/image";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <main>
-        <section className="hero">
-          <div className="hero-content">
-            <div className="hero-text">
-              <h2>BEST DESTINATIONS AROUND THE PHILIPPINES</h2>
-              <h1>
-                Travel, enjoy <br></br>and discover <br></br>Philippines!
-              </h1>
-              <p>
-                Discover the beauty of the Philippines with us, your ultimate travel partner <br></br>for unforgettable adventures! We will make it easy for you to experience <br></br>authentic Filipino culture.
-              </p>
-              <button className="btn">Find out more</button>
-            </div>
-            <div className="hero-image">
-              <img
-                src="/images/traveler.png"
-                alt="Traveler with backpack"
-                className="hero-right-image"
+      {/* Header */}
+      <header>
+        <nav className="nav">
+          <ul>
+            <li>Destinations</li>
+            <li>Foods</li>
+            <li><a href="/about" className="no-underline">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="hero-text">
+          <h1>
+            Travel, <span>enjoy</span>, and discover Philippines!
+          </h1>
+          <p>
+            Discover the beauty of the Philippines with us, your ultimate travel
+            partner for unforgettable adventures!
+          </p>
+          <a href="#" className="btn-primary">
+            Find Out More
+          </a>
+        </div>
+        <div className="hero-image">
+          <Image src="/images/Hero.png" width={400} height={400} alt="Traveler" />
+        </div>
+      </section>
+
+      {/* Top Destinations */}
+      <section>
+        <div className="container">
+          <h2 className="section-title">Top Destinations</h2>
+          <div className="grid-container">
+            <div className="card">
+              <Image
+                src="/images/boracay.png"
+                width={300}
+                height={200}
+                alt="Boracay"
               />
+              <div className="card-content">
+                <h3>Boracay, Aklan</h3>
+                <p>5 Days Trip</p>
+              </div>
+            </div>
+            <div className="card">
+              <Image
+                src="/images/palawan.png"
+                width={300}
+                height={200}
+                alt="Coron, Palawan"
+              />
+              <div className="card-content">
+                <h3>Coron, Palawan</h3>
+                <p>4 Days Trip</p>
+              </div>
+            </div>
+            <div className="card">
+              <Image
+                src="/images/chinatown.png"
+                width={300}
+                height={200}
+                alt="Chinatown, Manila"
+              />
+              <div className="card-content">
+                <h3>Chinatown, Manila</h3>
+                <p>2 Days Trip</p>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="top-destinations">
-          <div className="destination-title">
-          <h2>Top Destinations</h2>
+      {/* Food Recommendation */}
+      <section>
+        <div className="container">
+          <h2 className="section-title">Food Recommendation</h2>
+          <div className="grid-container">
+            <div className="card">
+              <Image
+                src="/images/chicharon.png"
+                width={300}
+                height={200}
+                alt="Chicharon"
+              />
+              <div className="card-content">
+                <h3>Chicharon</h3>
+                <p>Fried pork belly</p>
+              </div>
+            </div>
+            <div className="card">
+              <Image
+                src="/images/bananaq.png"
+                width={300}
+                height={200}
+                alt="Banana Cue"
+              />
+              <div className="card-content">
+                <h3>Bananaque</h3>
+                <p>Caramelized bananas</p>
+              </div>
+            </div>
+            <div className="card">
+              <Image
+                src="/images/daing.png"
+                width={300}
+                height={200}
+                alt="Daing"
+              />
+              <div className="card-content">
+                <h3>Daing</h3>
+                <p>Dried fish</p>
+              </div>
+            </div>
           </div>
-          <div className="destination-list">
-            <div className="destination-card">
-              <img src="/images/Boracay.png" alt="Boracay" />
-            </div>
-            <div className="destination-card">
-              <img src="/images/Palawan.png" alt="Palawan" />
-            </div>
-            <div className="destination-card">
-              <img src="/images/ChinaTown.png" alt="Manila" />
-            </div>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="food-recommendation">
-          <div className="food-title">
-          <h2>Food Recommendation</h2>
-          </div>
-          <div className="food-list">
-            <div className="food-card">
-              <img src="/images/Chicharon.png" alt="Chicharon" />
-            </div>
-            <div className="food-card">
-              <img src="/images/bananaq.png" alt="Banana Cue" />
-            </div>
-            <div className="food-card">
-              <img src="/images/daing.png" alt="Adobo" />
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
+      {/* Footer */}
+      <footer>
+        <div className="container">
+          <p>Jadoo. Your trip guide in minutes, get full control for much longer.</p>
+        </div>
+      </footer>
     </div>
   );
 }

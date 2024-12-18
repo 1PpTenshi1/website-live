@@ -1,18 +1,15 @@
-import Link from 'next/link';
+import Link from "next/link"; // Make sure Link is imported
 
-const Header = () => {
+export default function Header() {
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/app/destinations">Destinations</a></li>
-          <li><a href="/hotels">Foods</a></li>
-          <li><Link href="/app/about">About</Link></li>
+          <li><Link href="/">Destinations</Link></li>  
+          <li><Link href="/foods">Foods</Link></li>      
+          <li><a href="/about">About</a></li>      
         </ul>
       </nav>
     </header>
   );
-};
-
-export default Header;
+}

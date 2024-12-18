@@ -1,10 +1,8 @@
-const Footer = () => {
-    return (
-      <footer className="footer">
-        <p>&copy; 2024 Jadoo. All rights reserved.</p>
-      </footer>
-    );
-  };
-  
-  export default Footer;
-  
+export default function Footer() {
+  return (
+    <footer>
+      <h4>Jadoo.</h4>
+      <p>Your trip guide in minutes, get full control for much longer.</p>
+    </footer>
+  );
+}

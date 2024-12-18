@@ -3,18 +3,16 @@ import Image from "next/image";
 export default function About() {
   return (
     <div>
-      {/* Header */}
       <header>
         <nav className="nav">
           <ul>
             <li><a href="/" className="no-underline">Home</a></li>
-            <li>Destinations</li>
-            <li>Foods</li>
+            <li><a href="/destinations" className="no-underline">Destinations</a></li>
+            <li><a href="/foods" className="no-underline">Foods</a></li>
           </ul>
         </nav>
       </header>
 
-      {/* Hero Section with Picture */}
       <section className="about-section">
         <Image
           src="/images/Palawan.png" 
@@ -35,7 +33,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
       <section className="why-choose-us">
         <div className="container">
           <h2 className="section-title">Why Travel with Jadoo?</h2>
@@ -80,7 +77,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Vision Section */}
       <section className="our-vision">
         <div className="container">
           <h2 className="section-title">Our Vision</h2>
@@ -92,7 +88,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team Section */}
       <section className="team-section">
         <div className="container">
           <h2 className="section-title">Meet Our Team</h2>

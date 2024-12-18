@@ -4,18 +4,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      {/* Header */}
       <header>
         <nav className="nav">
           <ul>
-            <li>Destinations</li>
-            <li>Foods</li>
+            <li><a href="/destinations" className="no-underline">Destinations</a></li>
+            <li><a href="/foods" className="no-underline">Foods</a></li>
             <li><a href="/about" className="no-underline">About</a></li>
           </ul>
         </nav>
       </header>
 
-      {/* Hero Section */}
       <section className="hero">
         <div className="hero-text">
           <h1>
@@ -34,7 +32,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Top Destinations */}
       <section>
         <div className="container">
           <h2 className="section-title">Top Destinations</h2>
@@ -79,7 +76,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Food Recommendation */}
       <section>
         <div className="container">
           <h2 className="section-title">Food Recommendation</h2>

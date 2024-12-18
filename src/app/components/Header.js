@@ -7,7 +7,7 @@ export default function Header() {
         <ul>
           <li><Link href="/">Destinations</Link></li>  
           <li><Link href="/foods">Foods</Link></li>      
-          <li><a href="/about">About</a></li>      
+          <li><Link href="/about">About</Link></li>    
         </ul>
       </nav>
     </header>

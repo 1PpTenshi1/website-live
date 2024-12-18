@@ -40,7 +40,7 @@ export default function Home() {
           <div className="grid-container">
             <div className="card">
               <Image
-                src="/images/boracay.png"
+                src="/images/Boracay.png"
                 width={300}
                 height={200}
                 alt="Boracay"
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="card">
               <Image
-                src="/images/palawan.png"
+                src="/images/Palawan.png"
                 width={300}
                 height={200}
                 alt="Coron, Palawan"
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="card">
               <Image
-                src="/images/chinatown.png"
+                src="/images/Chinatown.png"
                 width={300}
                 height={200}
                 alt="Chinatown, Manila"
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="grid-container">
             <div className="card">
               <Image
-                src="/images/chicharon.png"
+                src="/images/Chicharon.png"
                 width={300}
                 height={200}
                 alt="Chicharon"

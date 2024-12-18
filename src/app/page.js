@@ -122,13 +122,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer>
-        <div className="container">
-          <p>Jadoo. Your trip guide in minutes, get full control for much longer.</p>
-        </div>
-      </footer>
     </div>
   );
 }

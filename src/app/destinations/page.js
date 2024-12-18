@@ -20,21 +20,21 @@ export default function Destinations() {
     <br /> <br />
     <div className="container-destintations">
         <div class="destinations reverse" id="destination">
-            <Image src="/images/Chicharon.png" alt="Chicharon"/>
+            <Image src="/images/ChinaTown.png" alt="Chinatown"/>
             <div>
-                <p>"Chicharon," also known as chicharrón, is a popular Filipino snack made from fried pork rinds. This crispy treat is enjoyed across the Philippines and often comes in various forms, such as pork skin, chicken skin, or even fish skin. It's typically seasoned with salt and sometimes vinegar or garlic to enhance its flavor. Chicharon is commonly eaten as a snack, paired with dipping sauces like vinegar with chili or soy sauce. It's also used as a topping for various Filipino dishes, adding a delightful crunch to the meal.</p>
+                <p>"Manila Chinatown" also known as Binondo, is the oldest Chinatown in the world, established in 1594. Located in the heart of Manila, it is a bustling district rich with history, culture, and commerce. Binondo is famous for its vibrant atmosphere, colorful streets, and an array of Chinese-Filipino businesses, including shops, markets, and restaurants. The area is a culinary paradise, offering delicious and authentic Chinese food, such as dim sum, noodles, and roasted meats. Notable landmarks include Ongpin Street, the Binondo Church, and the Chinese-Filipino Friendship Arch. Manila Chinatown is a fascinating blend of history and modernity, celebrating the cultural heritage and strong ties between the Chinese and Filipino communities.</p>
             </div>
         </div>
         <div className="destinations">
-            <Image src="/images/bananaq.png" alt="Sugar-coated Bananas"/>
+            <Image src="/images/elnido.png" alt="elnido"/>
             <div>
-                <p>"Sugar-coated bananas" are a delightful treat enjoyed in many parts of the world, including the Philippines. They are typically made by coating banana slices with a sweet sugar glaze and then frying them until they become golden and caramelized. This creates a crunchy, sugary exterior while keeping the inside soft and flavorful. These treats are often served as a snack or dessert, providing a perfect combination of sweetness and the natural flavor of bananas. Sometimes, a touch of cinnamon or other spices is added to enhance the taste. They are not only delicious but also easy to make and enjoy!</p>
+                <p>"El Nido" located on the northern tip of Palawan Island in the Philippines, is a tropical paradise known for its stunning natural beauty. It boasts dramatic limestone cliffs, crystal-clear turquoise waters, white sandy beaches, and vibrant coral reefs. El Nido is famous for its incredible island-hopping tours, where visitors can explore hidden lagoons, secret beaches, and stunning caves. The area is also a haven for diving and snorkeling enthusiasts, offering a chance to see a diverse array of marine life. With its breathtaking scenery and serene atmosphere, El Nido is a top destination for travelers seeking a slice of paradise.</p>
             </div>
         </div>
         <div className="destinations reverse">
-            <Image src="/images/daing.png" alt="Daing na Bangus"/>
+            <Image src="/images/Boracay.png" alt="boracay"/>
             <div>
-                <p>"Daing na bangus" is a Filipino dish made from marinated milkfish (bangus). The milkfish is typically butterflied and marinated in a mixture of vinegar, garlic, peppercorns, and salt. This marination process infuses the fish with a tangy and savory flavor. Once marinated, the fish is either fried or grilled until crispy and golden. "Daing na bangus" is often served with a side of rice and a dipping sauce made from vinegar, soy sauce, and chili. It’s a beloved breakfast dish in the Philippines, known for its rich flavors and satisfying texture.</p>
+                <p>"Boracay" is a small island located in the central Philippines, renowned for its stunning white-sand beaches, vibrant nightlife, and crystal-clear waters. The most famous of its beaches is White Beach, a long stretch of powdery sand lined with palm trees, resorts, and restaurants. Boracay offers a variety of water activities such as snorkeling, diving, kiteboarding, and windsurfing. The island is also known for its lively evening scene, with beachfront bars and nightclubs. Whether you're looking for adventure or relaxation, Boracay provides a picturesque and tropical escape that attracts travelers from around the globe.</p>
             </div>
         </div>
       </div>

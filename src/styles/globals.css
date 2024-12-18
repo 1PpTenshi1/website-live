@@ -375,3 +375,40 @@ footer h4:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+
+.destinations {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.destinations img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+.destinations p {
+  text-align: center;
+  margin: 0 20px;
+  flex: 1;
+}
+.destinations-h2 {
+  margin: 10px;
+  font-size: 2rem;
+  margin-left: 20px;
+  border-bottom: 2px solid #e4572e;
+}
+.destinations:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.container-destinations {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}

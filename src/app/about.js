@@ -3,18 +3,7 @@ import Image from "/image";
 export default function About() {
   return (
     <div>
-      {/* Header */}
-      <header>
-        <nav className="nav">
-          <ul>
-            <li><a href="/" className="no-underline">Home</a></li>
-            <li>Destinations</li>
-            <li>Foods</li>
-          </ul>
-        </nav>
-      </header>
-
-      {/* Hero Section with Picture */}
+      <Header />
       <section className="about-section">
         <Image
           src="/images/Palawan.png" 
@@ -136,12 +125,7 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer>
-        <h4>Jadoo.</h4>
-        <p>Your trip guide in minutes, get full control for much longer.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

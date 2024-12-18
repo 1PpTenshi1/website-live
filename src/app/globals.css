@@ -202,7 +202,7 @@ nav ul li a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #007bff;
+  background-color: #ffc422;
   transition: width 0.3s ease;
 }
 
@@ -218,4 +218,130 @@ nav ul li a:hover::after {
 .food-title h2{
   font-size: xx-large;
   font-weight: bold;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #f4f7fa;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin-top: -60px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  position: relative;
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  color: #181e4b;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.about-content h1 span {
+  color: #f77b3d;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #5e6282;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.about-content p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.about-content p strong {
+  color: #f77b3d;
+}
+
+.why-choose-us {
+  padding: 60px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #181e4b;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  color: #181e4b;
+  margin-bottom: 5px;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #5e6282;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.our-vision {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.our-vision p {
+  font-size: 1.1rem;
+  color: #5e6282;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.team-section {
+  padding: 60px 20px;
+}
+
+.team-section .grid-container {
+  gap: 20px;
 }

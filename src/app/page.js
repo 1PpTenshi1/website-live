@@ -63,9 +63,6 @@ export default function Home() {
         </section>
       </main>
       <Footer />
-      <div className="container">
-          <p>Jadoo. Your trip guide in minutes, get full control for much longer.</p>
-        </div>
     </div>
   );
 }

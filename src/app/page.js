@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,9 +25,9 @@ export default function Home() {
             Discover the beauty of the Philippines with us, your ultimate travel
             partner for unforgettable adventures!
           </p>
-          <a href="#" className="btn-primary">
+          <Link href="/about" className="btn-primary">
             Find Out More
-          </a>
+          </Link>
         </div>
         <div className="hero-image">
           <Image src="/images/Hero.png" width={400} height={400} alt="Traveler" />

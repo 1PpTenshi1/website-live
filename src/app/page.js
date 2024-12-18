@@ -4,8 +4,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div>
-      {/* Header */}
-      <header>
+      <Header />
         <nav className="nav">
           <ul>
             <li>Destinations</li>
@@ -13,9 +12,7 @@ export default function Home() {
             <li><a href="/about" className="no-underline">About</a></li>
           </ul>
         </nav>
-      </header>
 
-      {/* Hero Section */}
       <section className="hero">
         <div className="hero-text">
           <h1>
@@ -34,7 +31,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Top Destinations */}
       <section>
         <div className="container">
           <h2 className="section-title">Top Destinations</h2>
@@ -79,7 +75,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Food Recommendation */}
       <section>
         <div className="container">
           <h2 className="section-title">Food Recommendation</h2>
@@ -123,13 +118,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer>
-        <div className="container">
-          <p>Jadoo. Your trip guide in minutes, get full control for much longer.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
